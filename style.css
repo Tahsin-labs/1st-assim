@@ -5,6 +5,12 @@
   
   font-style: normal;
 }
+
+.raleway-rel {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 body {
       background-color: #f8f9ff;
       color: #1a1a1a;
@@ -15,6 +21,9 @@ body {
     justify-content: space-between;
     margin: 0 100px;
      
+}
+.nav h2{
+    color: #4a3aff;
 }
 .main-1{
    
@@ -27,6 +36,7 @@ body {
     /* background-color: burlywood; */
     margin: 130px 110px;
     padding: 0px 40px;
+    font-weight: bold;
 }
 .title p{
     font-size: 60px;
@@ -56,6 +66,10 @@ body {
 .ditale{
     margin-top: 50px;
 }
+.ditale p{
+    font-size: 20px;
+     color: #666;
+}
 .ex {
     font-size: 30px;
 }
@@ -74,8 +88,9 @@ body {
       margin-bottom: 30px;
       font-weight: 600;
       text-align: center;
-      margin-top: 90px;
+      /* margin-top: 90px; */
       padding: 5px;
+      /* margin-bottom: 50px; */
     }
 
     .items {
@@ -92,6 +107,7 @@ body {
 
     .item p {
       font-size: 50px;
+      font-family: none;
     }
 
     .item span {
@@ -104,7 +120,7 @@ body {
     }
 
     .main-4 h2 {
-      font-size: 24px;
+      font-size: 39px;
       font-weight: 600;
       margin-bottom: 40px;
       text-align: center;
@@ -148,7 +164,7 @@ body {
       padding: 60px 20px;
       background-color: #fff;
       text-align: center;
-       height: 600px;
+       height: 550px;
        width: 75%;
        margin: 60px 180px;
       border-radius: 20px;
