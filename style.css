@@ -1,3 +1,30 @@
-h1{
-    color: violet;
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+     
+}
+.main-1{
+   
+    background-image: url(Assets/Hero-bg.png);
+    height: 600px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    /* background-color: burlywood; */
+    margin: 130px 110px;
+    padding: 0px 40px;
+}
+.title p{
+    font-size: 60px;
+}
+.btn{
+    margin-top:20px ;
+    background-color: #4E47FF;
+    /* height: 40px;
+    width: 80px; */
+    color: aliceblue;
+    padding: 12px 36px 12px 36px;
+    border-radius: 10px;
 }
