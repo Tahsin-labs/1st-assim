@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productivity Site</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f8f9ff;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .stats {
+      background-color: #e6e6ff;
+      border-radius: 16px;
+      padding: 40px 20px;
+      margin: 20px;
+    }
+
+    .stats h2 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      font-weight: 600;
+    }
+
+    .stat-items {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .stat-item {
+      color: #4a3aff;
+      font-weight: bold;
+    }
+
+    .stat-item p {
+      font-size: 36px;
+    }
+
+    .stat-item span {
+      color: #666;
+      font-size: 14px;
+    }
+
+    .testimonials {
+      background-color: #fff;
+      padding: 40px 20px;
+    }
+
+    .testimonials h2 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+
+    .testimonial-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #f5f5ff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: left;
+    }
+
+    .card .stars {
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .focus-section {
+      padding: 60px 20px;
+      background-color: #fff;
+    }
+
+    .focus-section h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .focus-section p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .focus-section button {
+      background-color: #4a3aff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .focus-section img {
+      margin-top: 30px;
+      max-width: 100%;
+      border-radius: 20px;
+    }
+
+    .contact {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+      padding: 60px 20px;
+      background-color: #f8f9ff;
+    }
+
+    .contact h2 {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+
+    .form {
+      max-width: 400px;
+      margin-left: auto;
+      flex: 1;
+    }
+
+    .form input,
+    .form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+
+    .form button {
+      background-color: #4a3aff;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .footer {
+      background: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .footer h1 {
+      color: #4a3aff;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .footer p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .footer nav a {
+      margin: 0 10px;
+      font-size: 14px;
+      color: #333;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <section class="stats section">
+    <h2>Joined Thousands of Productive Users</h2>
+    <div class="stat-items">
+      <div class="stat-item">
+        <p>50K</p>
+        <span>Active Users</span>
+      </div>
+      <div class="stat-item">
+        <p>2M+</p>
+        <span>Focus Sessions</span>
+      </div>
+      <div class="stat-item">
+        <p>95%</p>
+        <span>Satisfaction Rate</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials section">
+    <h2>What our users say</h2>
+    <div class="testimonial-cards">
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <h3>Loved by Designers</h3>
+        <p>This template instantly leveled up our presence." – Studio Vertex</p>
+        <small>Reviewer name<br />Date</small>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <h3>Loved by Designers</h3>
+        <p>This template instantly leveled up our presence." – Studio Vertex</p>
+        <small>Reviewer name<br />Date</small>
+      </div>
+      <div class="card">
+        <div class="stars">★★★★★</div>
+        <h3>Loved by Designers</h3>
+        <p>This template instantly leveled up our presence." – Studio Vertex</p>
+        <small>Reviewer name<br />Date</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="focus-section section">
+    <h2>Ready to focus better</h2>
+    <p>This template instantly leveled up our presence." – Studio Vertex</p>
+    <button>Get Started Free</button>
+    <img src="https://via.placeholder.com/700x300?text=Webflow+Conf+2022" alt="Webflow Conf 2022">
+  </section>
+
+  <section class="contact">
+    <div>
+      <h2>Let's Get in Touch</h2>
+    </div>
+    <div class="form">
+      <label>Email</label>
+      <input type="email" placeholder="example@email.com">
+      <label>Name</label>
+      <input type="text" placeholder="full name">
+      <label>Message</label>
+      <textarea rows="5" placeholder="write your message...."></textarea>
+      <button>Get in Touch</button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h1>LOGO</h1>
+    <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">How it Works</a>
+      <a href="#">Services</a>
+    </nav>
+  </footer>
+</body>
+</html>
